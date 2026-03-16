@@ -22,27 +22,31 @@ The demo includes **simulated and anonymized example files** so the full workflo
 ---
 ## System Workflow
 
+The following diagram summarizes the main processing pipeline of the demo application, from file upload to result generation.
+
 ```mermaid
 flowchart LR
-    A[Anonymized demo files] --> B[Streamlit interface]
-    B --> C1[IHC Excel input]
-    B --> C2[MammaTyper PDF input]
+    A[User / Researcher] --> B[Streamlit Demo Interface]
 
-    C1 --> D1[Excel validation and preprocessing]
-    C2 --> D2[PDF parsing and biomarker extraction]
+    B --> C1[Upload IHC Excel file<br/>PatWin data]
+    B --> C2[Upload MammaTyper PDF report]
 
-    D1 --> E[Data integration]
+    C1 --> D1[Validate and preprocess<br/>IHC data]
+    C2 --> D2[Parse PDF and extract<br/>molecular biomarkers]
+
+    D1 --> E[Integrated data model]
     D2 --> E
 
-    E --> F[Breast cancer subtype comparison]
+    E --> F[Subtype comparison engine]
+
     F --> G1[Concordant cases]
     F --> G2[Discordant cases]
 
-    G1 --> H[Structured results table]
+    G1 --> H[Structured results]
     G2 --> H
 
-    H --> I[On-screen visualization]
-    H --> J[Exportable reports / outputs]
+    H --> I[Interactive visualization<br/>in Streamlit]
+    H --> J[Exportable outputs<br/>reports / tables]
 ```
 ---
 
