@@ -117,7 +117,7 @@ def main() -> None:
                 data=_read_bytes(excel_file),
                 file_name="demo_patwin.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                key="download_excel_demo"
+                key="demo_public_download_excel_patwin"
             )
         else:
             st.warning("No se encuentra el archivo demo_patwin.xlsx.")
@@ -129,7 +129,7 @@ def main() -> None:
                 data=_read_bytes(pdf_file),
                 file_name="demo_mammatypper.pdf",
                 mime="application/pdf",
-                key="download_pdf_demo"
+                key="demo_public_download_pdf_mammatypper"
             )
         else:
             st.warning("No se encuentra el archivo demo_mammatypper.pdf.")
