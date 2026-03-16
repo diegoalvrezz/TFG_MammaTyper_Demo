@@ -1,5 +1,18 @@
 <p align="center">
-  <img src="docs/logo.png" width="550">
+  <img src="docs/logo.png" width="350">
+</p>
+
+<h1 align="center">MammaScope</h1>
+
+<p align="center">
+Breast Cancer Concordance Analysis Tool
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue">
+  <img src="https://img.shields.io/badge/Streamlit-App-red">
+  <img src="https://img.shields.io/badge/License-MIT-green">
+  <img src="https://img.shields.io/badge/Project-Bachelor%20Thesis-blueviolet">
 </p>
 
 
