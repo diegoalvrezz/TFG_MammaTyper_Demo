@@ -20,6 +20,31 @@ https://tfg-mammatyper-demo.streamlit.app/
 The demo includes **simulated and anonymized example files** so the full workflow can be tested without using real clinical data.
 
 ---
+## System Workflow
+
+```mermaid
+flowchart LR
+    A[Anonymized demo files] --> B[Streamlit interface]
+    B --> C1[IHC Excel input]
+    B --> C2[MammaTyper PDF input]
+
+    C1 --> D1[Excel validation and preprocessing]
+    C2 --> D2[PDF parsing and biomarker extraction]
+
+    D1 --> E[Data integration]
+    D2 --> E
+
+    E --> F[Breast cancer subtype comparison]
+    F --> G1[Concordant cases]
+    F --> G2[Discordant cases]
+
+    G1 --> H[Structured results table]
+    G2 --> H
+
+    H --> I[On-screen visualization]
+    H --> J[Exportable reports / outputs]
+```
+---
 
 # Overview
 
