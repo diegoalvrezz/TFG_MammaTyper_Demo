@@ -42,6 +42,8 @@ MammaScope was developed to facilitate automated comparison between these diagno
 
 ## System Workflow
 
+The application integrates heterogeneous clinical data sources and processes them through a structured analysis pipeline.
+
 The following diagram summarizes the main processing pipeline of the demo application, from file upload to result generation.
 
 ```mermaid
@@ -75,7 +77,7 @@ flowchart LR
 
 Try the application online:
 
-https://mammascope-demo.streamlit.app/
+[Open the live demo](https://mammascope-demo.streamlit.app/)
 
 The demo includes **simulated and anonymized example files** so the full workflow can be tested without using real clinical data.
 
