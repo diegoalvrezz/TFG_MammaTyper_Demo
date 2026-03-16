@@ -100,7 +100,7 @@ The application is implemented using **Python and Streamlit**, providing a light
 Clone the repository:
 
 ```bash
-git clone https://github.com/diegoalvrezz/TFG_MammaTyper_Demo.git
+git clone https://github.com/diegoalvrezz/MammaScope-Demo.git
 cd TFG_MammaTyper_Demo
 ```
 
@@ -135,7 +135,7 @@ These files allow users to test the complete workflow without requiring real hos
 # Repository Structure
 
 ```
-TFG_MammaTyper_Demo
+MammaScope-Demo
 │
 ├── codigo/                 core processing modules
 │
