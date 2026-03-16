@@ -75,7 +75,7 @@ def main() -> None:
     )
 
     # Mostrar logo si existe
-    logo_path = ROOT / "demo_app" / "logo_mammascope.png"
+    logo_path = ROOT / "codigo" / "logo.png"
     if logo_path.exists():
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
