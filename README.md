@@ -10,16 +10,6 @@ Public demo of a software tool developed as part of a **Bachelor's Thesis (TFG)*
 The application allows automated **comparison between immunohistochemistry (IHC) results and molecular subtyping obtained with MammaTyper®** for breast cancer classification.
 
 ---
-
-# Live Demo
-
-Try the application online:
-
-https://tfg-mammatyper-demo.streamlit.app/
-
-The demo includes **simulated and anonymized example files** so the full workflow can be tested without using real clinical data.
-
----
 ## System Workflow
 
 The following diagram summarizes the main processing pipeline of the demo application, from file upload to result generation.
@@ -49,6 +39,17 @@ flowchart LR
     H --> J[Exportable outputs<br/>reports / tables]
 ```
 ---
+
+# Live Demo
+
+Try the application online:
+
+https://tfg-mammatyper-demo.streamlit.app/
+
+The demo includes **simulated and anonymized example files** so the full workflow can be tested without using real clinical data.
+
+---
+
 
 # Overview
 
