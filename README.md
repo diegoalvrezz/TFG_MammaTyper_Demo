@@ -16,13 +16,21 @@ Breast Cancer Concordance Analysis Tool
 </p>
 
 
-# MammaScope — Breast Cancer Concordance Analysis Demo
 
 
 
 Public demo of **MammaScope**, a Streamlit-based software tool for integrating and comparing immunohistochemistry (IHC) and MammaTyper molecular profiling in breast cancer.
 
 
+
+---
+## Scientific Background
+
+Breast cancer classification in clinical practice is commonly performed using immunohistochemistry (IHC), evaluating ER, PR, HER2 and Ki-67 biomarkers.
+
+Gene expression–based assays such as **MammaTyper®** provide quantitative measurements of ESR1, PGR, ERBB2 and MKI67, enabling more reproducible molecular subtyping.
+
+MammaScope was developed to facilitate automated comparison between these diagnostic approaches and support concordance analysis between molecular and immunohistochemical classification.
 
 ---
 
