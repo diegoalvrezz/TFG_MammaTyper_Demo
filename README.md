@@ -44,7 +44,7 @@ flowchart LR
 
 Try the application online:
 
-https://tfg-mammatyper-demo.streamlit.app/
+https://mammascope-demo.streamlit.app/
 
 The demo includes **simulated and anonymized example files** so the full workflow can be tested without using real clinical data.
 
