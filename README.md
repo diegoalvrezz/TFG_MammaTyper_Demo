@@ -1,60 +1,63 @@
-# MammaTyper vs IHC Comparison — TFG Demo
+# MammaTyper vs IHC Comparison — Breast Cancer Subtyping Tool
 
-Public demo of a web application developed as part of a **Bachelor's Thesis (TFG)** in Health Engineering at the **University of Burgos**.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Project](https://img.shields.io/badge/Project-Bachelor%20Thesis-blueviolet)
+
+Public demo of a software tool developed as part of a **Bachelor's Thesis (TFG)** in Health Engineering at the **University of Burgos**.
 
 The application allows automated **comparison between immunohistochemistry (IHC) results and molecular subtyping obtained with MammaTyper®** for breast cancer classification.
-
-This repository contains a **demo version** of the system that can be executed locally or accessed online.
 
 ---
 
 # Live Demo
 
-You can access the public demo here:
+Try the application online:
 
 https://tfg-mammatyper-demo.streamlit.app/
 
-The demo includes **simulated and anonymized example files** to illustrate the functionality of the system without using real clinical data.
+The demo includes **simulated and anonymized example files** so the full workflow can be tested without using real clinical data.
 
 ---
 
-# Project Context
+# Overview
 
 Breast cancer molecular subtyping is essential for guiding therapeutic decisions. In routine clinical practice, classification is commonly performed using **immunohistochemistry (IHC)** by evaluating biomarkers such as:
 
-- ER (Estrogen Receptor)  
-- PR (Progesterone Receptor)  
-- HER2  
-- Ki-67  
+- ER (Estrogen Receptor)
+- PR (Progesterone Receptor)
+- HER2
+- Ki-67
 
-However, IHC can present limitations due to **inter-observer variability and subjective interpretation**, particularly for Ki-67.
+However, IHC presents limitations related to **inter-observer variability and subjective interpretation**, particularly for Ki-67.
 
-The **MammaTyper® assay**, based on RT-qPCR, quantifies the expression of the genes:
+The **MammaTyper® assay**, based on RT-qPCR technology, quantifies the expression of the genes:
 
-- ESR1  
-- PGR  
-- ERBB2  
-- MKI67  
+- ESR1
+- PGR
+- ERBB2
+- MKI67
 
 This provides a **quantitative and reproducible molecular classification**.
 
-The application developed in this project automates the integration and comparison of both methods.
+This project develops a software tool that **automates the integration and comparison of results between both methods**, facilitating the analysis of diagnostic concordance.
 
 ---
 
-# Features
+# Key Features
 
-The system allows:
+The system provides the following functionality:
 
-- Import of IHC results from **Excel files (PatWin)**
+- Import of **IHC results from Excel files (PatWin)**
 - Import of **MammaTyper PDF reports**
 - Automatic **biomarker extraction**
-- Data integration into a structured dataset
+- Integration of results into a structured dataset
 - Identification of **concordances and discordances**
-- Generation of structured reports
+- Automatic **report generation**
 - Export of processed results
 
-The application is implemented using **Python and Streamlit** to provide a simple interface suitable for clinical environments.
+The application is implemented using **Python and Streamlit**, providing a lightweight interface suitable for clinical environments.
 
 ---
 
@@ -79,7 +82,7 @@ Run the application:
 streamlit run demo_app/demo_app.py
 ```
 
-The app will open automatically in your browser.
+The application will open automatically in your browser.
 
 ---
 
@@ -91,7 +94,7 @@ Example anonymized files are included in:
 demo_app/demo_files
 ```
 
-These files allow users to test the full workflow without requiring real hospital data.
+These files allow users to test the complete workflow without requiring real hospital data.
 
 ---
 
@@ -118,17 +121,18 @@ This repository **does not contain real clinical data**.
 
 All files included in the demo are:
 
-- simulated  
-- anonymized  
-- provided only for demonstration purposes  
+- simulated
+- anonymized
+- intended only for demonstration purposes
 
-The original application is designed to operate with **previously anonymized data in a hospital environment**.
+The full application is designed to operate with **previously anonymized data within a hospital environment**.
 
 ---
 
 # Author
 
-Diego Vallina Álvarez  
+**Diego Vallina Álvarez**
+
 Health Engineering Degree  
 University of Burgos
 
@@ -140,4 +144,4 @@ Bachelor’s Thesis developed in collaboration with the **Hospital Universitario
 
 This project is distributed under the **MIT License**.
 
-See the `LICENSE` file for more information.
+See the `LICENSE` file for details.
