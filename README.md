@@ -22,6 +22,12 @@ Breast Cancer Concordance Analysis Tool
 **MammaScope** is a Streamlit-based software tool designed to integrate and compare immunohistochemistry (IHC) results with MammaTyper molecular profiling in breast cancer.
 
 
+## Project Context
+
+This repository contains the **public demonstration version** of MammaScope, developed as part of a Bachelor's Thesis in Health Engineering at the University of Burgos.
+
+The demo version allows users to test the complete workflow of the application using simulated data, while the full version is designed to operate in a controlled clinical environment.
+
 
 ---
 ## Scientific Background
