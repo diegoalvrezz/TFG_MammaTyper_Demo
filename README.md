@@ -65,7 +65,7 @@ flowchart LR
 
 ---
 
-# Live Demo
+## Live Demo
 
 Try the application online:
 
@@ -75,7 +75,7 @@ The demo includes **simulated and anonymized example files** so the full workflo
 
 ---
 
-# Overview
+## Overview
 
 Breast cancer molecular subtyping is essential for guiding therapeutic decisions. In routine clinical practice, classification is commonly performed using **immunohistochemistry (IHC)** by evaluating biomarkers such as:
 
@@ -99,7 +99,7 @@ This project develops a software tool that **automates the integration and compa
 
 ---
 
-# Key Features
+## Key Features
 
 The system provides the following functionality:
 
@@ -115,7 +115,7 @@ The application is implemented using **Python and Streamlit**, providing a light
 
 ---
 
-# Running the Demo Locally
+## Running the Demo Locally
 
 Clone the repository:
 
@@ -140,7 +140,7 @@ The application will open automatically in your browser.
 
 ---
 
-# Demo Files
+## Demo Files
 
 Example anonymized files are included in:
 
@@ -152,7 +152,7 @@ These files allow users to test the complete workflow without requiring real hos
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```
 MammaScope-Demo
@@ -178,7 +178,7 @@ MammaScope-Demo
 
 ---
 
-# Clinical Data Disclaimer
+## Clinical Data Disclaimer
 
 This repository **does not contain real clinical data**.
 
@@ -192,7 +192,7 @@ The full application is designed to operate with **previously anonymized data wi
 
 ---
 
-# Author
+## Author
 
 **Diego Vallina Álvarez**
 
@@ -203,7 +203,7 @@ Bachelor’s Thesis developed in collaboration with the **Hospital Universitario
 
 ---
 
-# License
+## License
 
 This project is distributed under the **MIT License**.
 
