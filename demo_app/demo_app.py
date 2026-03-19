@@ -128,6 +128,12 @@ def _inject_demo_styles() -> None:
         div[data-testid="stVerticalBlock"] > div:empty {
             display: none;
         }
+        [data-testid="stMainBlockContainer"] h1:first-of-type {
+            display: none;
+        }
+        section[data-testid="stMain"] h1 {
+            display: none;
+        }
         </style>
         """,
         unsafe_allow_html=True,
