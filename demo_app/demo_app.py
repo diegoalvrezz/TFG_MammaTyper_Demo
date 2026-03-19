@@ -64,13 +64,11 @@ def _inject_demo_styles() -> None:
             padding: 1.4rem 1.4rem 1.2rem 1.4rem;
             margin-bottom: 1.2rem;
         }
-
         .cabecera-demo {
             text-align: center;
             margin-top: 0.2rem;
             margin-bottom: 1.2rem;
         }
-
         .titulo-demo {
             font-size: 2.6rem;
             font-weight: 800;
@@ -78,13 +76,11 @@ def _inject_demo_styles() -> None:
             color: #1f2937;
             margin-bottom: 0.2rem;
         }
-
         .subtitulo-demo {
             font-size: 1.05rem;
             color: #6b7280;
             margin-bottom: 0.4rem;
         }
-
         .nota-demo {
             font-size: 0.95rem;
             color: #4b5563;
@@ -92,7 +88,6 @@ def _inject_demo_styles() -> None:
             margin-top: 0.2rem;
             margin-bottom: 0;
         }
-
         .tarjeta-demo {
             background-color: #ffffff;
             border: 1px solid #e5e7eb;
@@ -100,20 +95,17 @@ def _inject_demo_styles() -> None:
             padding: 1rem 1rem 0.8rem 1rem;
             min-height: 170px;
         }
-
         .tarjeta-demo h4 {
             margin-top: 0;
             margin-bottom: 0.4rem;
             color: #1f2937;
             font-size: 1.05rem;
         }
-
         .tarjeta-demo p {
             color: #6b7280;
             font-size: 0.95rem;
             margin-bottom: 0.9rem;
         }
-
         .seccion-demo {
             margin-top: 1.2rem;
             margin-bottom: 0.6rem;
@@ -121,7 +113,6 @@ def _inject_demo_styles() -> None:
             font-weight: 700;
             color: #1f2937;
         }
-
         .pasos-demo {
             background-color: #f9fafb;
             border: 1px dashed #d1d5db;
@@ -130,13 +121,10 @@ def _inject_demo_styles() -> None:
             color: #374151;
             margin-bottom: 1rem;
         }
-
         .divider-demo {
             margin-top: 1.2rem;
             margin-bottom: 1rem;
         }
-        </style>
-        """,
         div[data-testid="stVerticalBlock"] > div:empty {
             display: none;
         }
