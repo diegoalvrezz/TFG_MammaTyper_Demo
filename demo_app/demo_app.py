@@ -177,6 +177,7 @@ def main() -> None:
         with col2:
             st.image(str(logo_path), width=500)
             
+    st.markdown("<div style='margin-top: -1rem;'></div>", unsafe_allow_html=True)
     st.markdown('<div class="bloque-demo">', unsafe_allow_html=True)
 
     st.markdown(
