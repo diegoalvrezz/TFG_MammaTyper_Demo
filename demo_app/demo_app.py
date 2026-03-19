@@ -154,7 +154,7 @@ def main() -> None:
     # Configuración general de la página
     st.set_page_config(
         page_title="MammaScope Demo",
-        page_icon=str(ROOT / "codigo" / "logo.png"),
+        page_icon=str(ROOT / "docs" / "logo.png"),
         layout="wide"
     )
 
